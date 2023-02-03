@@ -1,5 +1,5 @@
 class Animal:
-    def __init__(self,legs_count):
+    def __init__(self, legs_count):
         print("Animal object was created")
         self.number_of_legs = legs_count
 
@@ -10,10 +10,10 @@ class Animal:
         print(f"It has {self.number_of_legs}")
 
     def return_legs(self):
-        return print("It has",self.number_of_legs)
+        return self.number_of_legs
+
 
 animal = Animal(4)
-
 animal.count_legs()
-animal.return_legs()
-print(animal)
+print(animal.return_legs())
+print(animal.number_of_legs)
