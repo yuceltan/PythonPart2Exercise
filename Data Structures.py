@@ -19,7 +19,8 @@ print(list1) # question 6
 list1.remove("rabbit")
 print(list1) # question 7
 
-
+dict1["fish"]=0
+print(dict1["fish"])# question 8
 
 
 
