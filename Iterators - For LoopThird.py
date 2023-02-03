@@ -8,13 +8,6 @@ listed_values =list(dict1.values())
 x =len(listed_key)
 y =len(listed_values)
 
-for i in range(len(listed_key)):
-        for j in range(listed_values):
-
-            print(listed_key[i])
-            print(listed_values[j])
-            break
-
-
-
+for i,j in zip(listed_key,listed_values):
+       print(i,j)
 
