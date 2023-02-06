@@ -9,5 +9,7 @@ x =len(listed_key)
 y =len(listed_values)
 
 for i,j in zip(listed_key,listed_values):
-       print(i,j)
+       if j == 'land':
+              print(i,j)
+
 
